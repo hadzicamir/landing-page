@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 1em 4em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header span {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 0 0.5em;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+.hero-container h1 {
+    font-size: 48px; 
+    font-weight: 900; 
+    color: #f9faf8;
+}
+
+.hero-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.blue-btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 0.5em 2em;
+    border: #3882f6;
+    /* display: block; */
+}
+
+#hero-img {
+    width: 40%;
+    height: auto;
+    text-align: right;
+}
