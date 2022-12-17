@@ -32,15 +32,31 @@ header ul {
     display: flex;
 }
 
+.main-container {
+    display: flex;
+    padding: 2em 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-right: 2em;
+}
+
 .hero-container h1 {
+    margin: 0;
     font-size: 48px; 
     font-weight: 900; 
     color: #f9faf8;
+    flex: 1;
 }
 
 .hero-container p {
+    margin: 0;
     font-size: 18px;
     color: #e5e7eb;
+    flex: 1;
 }
 
 .blue-btn {
@@ -49,12 +65,12 @@ header ul {
     font-weight: 700;
     border-radius: 7px;
     padding: 0.5em 2em;
-    border: #3882f6;
-    /* display: block; */
+    /* border: #3882f6; */
+    border-style: none;
+    align-self: flex-start;
+    cursor: pointer;
 }
 
 #hero-img {
     width: 40%;
-    height: auto;
-    text-align: right;
 }
