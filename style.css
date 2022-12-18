@@ -102,3 +102,21 @@ header ul {
 .cards img {
     width: 8em;
 }
+
+/* Quote section */
+ .quote {
+    background-color: #e5e7eb;
+    padding: 3em 7em;
+ }
+
+ .quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+ }
+
+ .quote figcaption {
+    text-align: end;
+    
+ }
