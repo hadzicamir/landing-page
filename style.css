@@ -2,6 +2,9 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* Because of footer */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -117,6 +120,37 @@ header ul {
  }
 
  .quote figcaption {
-    text-align: end;
-    
+    text-align: end;  
+ }
+
+ /* Sign up section */
+
+ .blue {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 3em 5em;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+ }
+
+ .blue h4, .blue p {
+    margin: 0;
+ }
+
+ .blue .blue-btn {
+    border: 2px solid #f9faf8;
+ }
+
+ /* Footer */
+
+ footer {
+    background-color: #1f2937;
+    font-weight: bold;
+    /* Stick footer to bottom */
+    flex-shrink: 0;
+    color: #e5e7eb;
+    padding: 1em;
+    text-align: center;
  }
